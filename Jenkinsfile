@@ -23,7 +23,7 @@ pipeline {
         stage('Access Link') {
             steps {
                 echo '🔗 Your frontend is ready!'
-                echo 'Open in browser: http://localhost:8080/userContent/index.html'
+                echo 'Open in browser: http://localhost:8080/userContent/login.html'
             }
         }
     }
